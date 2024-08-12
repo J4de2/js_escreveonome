@@ -1,0 +1,22 @@
+let palavra;
+
+function setup() {
+  createCanvas(400, 400);
+  
+  
+  let palavras = ["Veloz", "Velocidade", "Velocista"];
+  
+  palavra = random(palavras);
+}
+
+function inicializaCores() {
+  
+  background("purple");
+  fill("yellow");
+  textSize(64);
+  textAlign(CENTER, CENTER);
+}
+
+function draw() {
+  
+  inicializaCores();
